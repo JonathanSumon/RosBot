@@ -1,0 +1,8 @@
+<launch>
+	<param name="Alice.ai" value="/home/jonathan/catkin_ws/src/RosBot/data" />
+	<node name="botServer" pkg="RosBot" type="botServer.py" output="screen">
+	</node>
+	<node name="botClient" pkg="RosBot" type="botClient.py" output="screen">
+	</node>s
+
+</launch>
